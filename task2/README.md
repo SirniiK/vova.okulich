@@ -2,9 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/86946026/125194680-02b13000-e25b-11eb-8681-a29e568456e5.png)
 
-#import tkinter as tk - імпорт відповідної бібліотеки Tkinter
+#import tkinter as tk - "імпорт відповідної бібліотеки Tkinter"
 
-#Стилі для рамки, кнопок, полів...
+#"Стилі для рамки, кнопок, полів..."
 LARGE_FONT_STYLE = ("Arial", 40, "bold")
 
 SMALL_FONT_STYLE = ("Arial", 16)
@@ -23,4 +23,10 @@ LIGHT_GRAY = "#F5F5F5"
 
 LABEL_COLOR = "#25265E"
 
+#"характеристика вікна"
+    def __init__(self):
+        self.window = tk.Tk()
+        self.window.geometry("375x667")
+        self.window.resizable(0, 0)
+        self.window.title("Calculator")
 
