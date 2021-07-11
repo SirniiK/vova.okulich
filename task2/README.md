@@ -24,6 +24,7 @@ LIGHT_GRAY = "#F5F5F5"
 LABEL_COLOR = "#25265E"
 
 #"характеристика вікна"
+
     def __init__(self):
         self.window = tk.Tk()
         self.window.geometry("375x667")
