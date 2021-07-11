@@ -4,7 +4,8 @@
 
 #import tkinter as tk - імпорт відповідної бібліотеки Tkinter
 
-#LARGE_FONT_STYLE = ("Arial", 40, "bold")
+#Стилі для рамки, кнопок, полів...
+LARGE_FONT_STYLE = ("Arial", 40, "bold")
 
 SMALL_FONT_STYLE = ("Arial", 16)
 
@@ -22,4 +23,4 @@ LIGHT_GRAY = "#F5F5F5"
 
 LABEL_COLOR = "#25265E"
 
-#Стилі для рамки, кнопок, полів...
+
